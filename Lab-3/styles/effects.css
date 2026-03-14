@@ -1,0 +1,64 @@
+img{
+width:200px;
+border-radius:10px;
+transition:0.4s;
+}
+
+img:hover{
+transform:scale(1.1);
+}
+
+.box{
+width:150px;
+height:150px;
+background:orange;
+transition:1s;
+}
+
+.box:hover{
+transform:rotate(20deg);
+}
+.gallery img{
+width:200px;
+margin:10px;
+border-radius:10px;
+box-shadow:3px 3px 10px gray;
+transition:0.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.1);
+filter:brightness(120%);
+}
+.circle{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+}
+.overlay-box{
+position:relative;
+width:200px;
+}
+
+.overlay-box img{
+width:100%;
+}
+
+.text{
+position:absolute;
+bottom:0;
+background:rgba(0,0,0,0.6);
+color:white;
+width:100%;
+text-align:center;
+}
+img{
+width:60px;
+}
+
+.icon{
+border-radius:50%;
+border:2px solid black;
+padding:5px;
+}

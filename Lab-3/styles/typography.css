@@ -1,0 +1,15 @@
+h2{
+font-size:28px;
+text-transform:uppercase;
+}
+
+p{
+font-size:18px;
+line-height:1.6;
+letter-spacing:1px;
+}
+
+.special{
+font-weight:bold;
+color:purple;
+}

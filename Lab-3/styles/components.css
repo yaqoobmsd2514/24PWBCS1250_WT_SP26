@@ -1,0 +1,18 @@
+button{
+padding:10px 20px;
+background:blue;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+button:hover{
+background:darkblue;
+}
+
+.card{
+border:1px solid gray;
+padding:20px;
+margin:20px;
+box-shadow:2px 2px 10px gray;
+}
